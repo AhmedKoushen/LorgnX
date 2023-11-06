@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(120deg, rgb(0, 0, 0) 0%, rgb(34, 34, 34) 100%);
   opacity: 0.8;
   box-shadow: 0px 0.2px 5px;
   height: 80px;
@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  /*max-width: 1500px;*/
+  max-width: 1500px;  
 }
 
 .navbar-logo {
@@ -38,9 +38,10 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  /*width: 84vw;
-  /*justify-content: end;
+  width: 84vw;
+  justify-content: end;
   /*margin-right: 2rem;*/
+  padding: 0;
 }
 
 .nav-item {
@@ -117,6 +118,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    margin-left: 0;
     transform: translate(25%, 50%);
   }
 

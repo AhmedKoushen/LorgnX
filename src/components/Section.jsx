@@ -1,7 +1,7 @@
 //import React from "react";
 import "./Section.css"
 
-function Section({children, style, direction}){
+function Section({children, style}){
 
     return(
         <>
