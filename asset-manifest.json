@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/LorgnX/static/css/main.5484c43d.css",
-    "main.js": "/LorgnX/static/js/main.5dbcc8f1.js",
+    "main.js": "/LorgnX/static/js/main.598e7999.js",
     "index.html": "/LorgnX/index.html",
     "main.5484c43d.css.map": "/LorgnX/static/css/main.5484c43d.css.map",
-    "main.5dbcc8f1.js.map": "/LorgnX/static/js/main.5dbcc8f1.js.map"
+    "main.598e7999.js.map": "/LorgnX/static/js/main.598e7999.js.map"
   },
   "entrypoints": [
     "static/css/main.5484c43d.css",
-    "static/js/main.5dbcc8f1.js"
+    "static/js/main.598e7999.js"
   ]
 }
