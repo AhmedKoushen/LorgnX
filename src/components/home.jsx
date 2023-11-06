@@ -1,5 +1,6 @@
 import Section from "./Section";
-import tamer from "../media/tamer.jpg"
+import tamer from "../media/tamer.jpg";
+import img1 from "../media/11.jpg";
 import { useState, useEffect, useRef } from 'react';
 
  const useScrollbarWidth = () => {
@@ -55,8 +56,13 @@ function Home(){
         <>
         
             <Section style={{backgroundColor: "rgb(17,17,17)", color: "rgb(247,247,250)", padding: "0", justifyContent: "center"}}>
-                    <img src={tamer} style={{padding:"0", margin:"0"}} width={windowSize.width - useScrollbarWidth()}>
-                    </img>
+                    <div className="imgContainer" style={{width: (windowSize.width - useScrollbarWidth()), height: (windowSize.height - 80), overflow:"hidden", display:"flex", justifyContent:"center",}}>
+                        <img src={img1} style={{padding:"0", margin:"0", width:"100%", alignSelf: "center"}} />
+                        <div style={{position:"absolute", zIndex:"1", top:(0.47*(windowSize.height-80))}}>
+                            <h1>Hello</h1>                            <h1>Hello</h1>
+
+                        </div>
+                    </div>
             </Section>
             <Section style={{backgroundColor: "rgb(247,247,250)", color: "rgb(17,17,17)"}}>
                 <h1>Hellww</h1>
