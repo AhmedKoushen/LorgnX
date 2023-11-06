@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import "./Section.css"
 
 function Section({children, style, direction}){
