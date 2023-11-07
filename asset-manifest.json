@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LorgnX/static/css/main.a1c20964.css",
-    "main.js": "/LorgnX/static/js/main.1da7112c.js",
+    "main.css": "/LorgnX/static/css/main.6b4ba83a.css",
+    "main.js": "/LorgnX/static/js/main.b19e18a6.js",
     "static/media/11.jpg": "/LorgnX/static/media/11.22f186485b0b015c9b71.jpg",
     "static/media/tamer.jpg": "/LorgnX/static/media/tamer.91b38e5c43b40c9fd375.jpg",
     "index.html": "/LorgnX/index.html",
-    "main.a1c20964.css.map": "/LorgnX/static/css/main.a1c20964.css.map",
-    "main.1da7112c.js.map": "/LorgnX/static/js/main.1da7112c.js.map"
+    "main.6b4ba83a.css.map": "/LorgnX/static/css/main.6b4ba83a.css.map",
+    "main.b19e18a6.js.map": "/LorgnX/static/js/main.b19e18a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1c20964.css",
-    "static/js/main.1da7112c.js"
+    "static/css/main.6b4ba83a.css",
+    "static/js/main.b19e18a6.js"
   ]
 }
