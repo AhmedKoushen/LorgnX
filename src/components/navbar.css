@@ -1,13 +1,13 @@
 .navbar {
-  background: linear-gradient(120deg, rgb(0, 0, 0) 0%, rgb(34, 34, 34) 100%);
-  opacity: 0.8;
+  background: linear-gradient(120deg, rgb(0, 0, 0) 0%, rgb(52,52,46) 100%);
+  opacity: 0.9;
   box-shadow: 0px 0.2px 5px;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: sticky !important;
   top: 0;
   z-index: 999;
 }
@@ -34,7 +34,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;

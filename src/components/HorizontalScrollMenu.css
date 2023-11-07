@@ -1,0 +1,20 @@
+.horizontal-scroll-menu {
+    overflow-x: auto;
+  }
+  
+  .menu-container {
+    display: flex;
+  }
+  
+  .menu-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .menu-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link, Outlet } from 'react-router-dom';
 import './navbar.css';
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -36,28 +37,37 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/LorgnX' className='nav-links' onClick={closeMobileMenu}>
+              <HashLink to='/LorgnX#top' className='nav-links' onClick={closeMobileMenu}>
                 Home
-              </Link>
+              </HashLink>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/LorgnX/services'
+              <HashLink smooth
+                to='/LorgnX#Services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Services
-              </Link>
+              </HashLink>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/LorgnX/products'
+              <HashLink smooth
+                to='/LorgnX#About'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
-              </Link>
-            </li>
+                About
+              </HashLink>
+              </li>
+              <li className='nav-item'>
+              <HashLink smooth
+                to='/LorgnX#Gallery'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Gallery
+              </HashLink>
+              </li>
           </ul>
         </div>
       </nav>

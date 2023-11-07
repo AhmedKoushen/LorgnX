@@ -1,0 +1,23 @@
+
+.carousel .slide img{
+    width: auto !important;
+
+}
+.carousel-slider img{
+    width: auto;
+    max-height: 500px;
+}
+.CellContainer {
+    justify-self : center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+  }
+  
+@media (min-width: 600px) {
+    .CellContainer { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .CellContainer { grid-template-columns: repeat(3, 1fr); }
+  }
